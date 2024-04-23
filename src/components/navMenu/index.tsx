@@ -9,7 +9,7 @@ interface NavLinkProps {
 
 const NavLink: React.FC<NavLinkProps> = ({ to, text }) => {
   return (
-    <RouterNavLink to={to} className="nav-link" activeClassName="active">
+    <RouterNavLink to={to} className="nav-link">
       {text}
     </RouterNavLink>
   );
