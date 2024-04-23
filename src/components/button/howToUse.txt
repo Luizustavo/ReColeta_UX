@@ -1,0 +1,5 @@
+importe o componente:
+import Button from "./components/button";
+
+utilize o botão:
+<Button text="Teste"/>

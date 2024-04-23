@@ -1,0 +1,6 @@
+importe o componente:
+import Input from "./components/input"
+
+utilize o input:
+exemplo e-mail: <Input type="email" placeholder='E-mail'/>
+exemplo senha: <Input type="password" placeholder="Digite sua senha" />

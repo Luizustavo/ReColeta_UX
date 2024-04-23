@@ -1,0 +1,24 @@
+.custom-button {
+    display: flex;
+    flex-direction: column;
+    background-color: #4BD609;
+    color: #F9F9F9;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    border: #4BD609;
+    margin: 0;
+    width: 100%;
+    max-width: 330px;
+    align-items: center;
+    line-height: 50px;
+    margin-bottom: 20px;  
+    text-decoration: none;
+  }
+  
+  .custom-button:hover {
+    background-color: #2E8704;
+    border: #2E8704;
+  }

@@ -1,0 +1,30 @@
+.custom-input {
+  background-color: #EFEFEF;
+  color: #5A5A5A;
+  border-radius: 10px;
+  font-size: 1em; 
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  border: none;
+  margin: 0; 
+  width: 100%; 
+  max-width: 330px; 
+  height: 51px;
+  text-align: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; 
+  font-family: 'Roboto', sans-serif;
+  width: 100%; 
+  max-width: 330px;
+}
+
+.input-container label {
+  text-align: left;
+  margin-bottom: 5px; 
+}
