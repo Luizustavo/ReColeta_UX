@@ -8,7 +8,7 @@ function Routes() {
   return (
     <Router>
       <ReactRoutes>
-        <Route path="/login" element={<LoginPage/>} />
+        <Route path="/" element={<LoginPage/>} />
         <Route path="/registration" element={<RegistrationPage/>} />
         <Route path="/dashboard" element={<DashboardPage/>} />
       </ReactRoutes>
